@@ -1,0 +1,11 @@
+<launch>
+
+<include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch" />
+<include file="$(find usb_cam)/launch/usb_cam_test.launch" />
+<include file="$(find orb_slam_2_ros)/launch/orbslam2.launch" />
+
+<node pkg = "orb_slam_pkg" name="Image Viewer" type="image_viewer_node.py" output ="screen"/>
+<node pkg = "orb_slam_pkg" name="Driver" type="motor_driver.py" output ="screen"/>
+
+
+</launch>
