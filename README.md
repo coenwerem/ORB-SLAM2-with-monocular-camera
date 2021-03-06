@@ -6,3 +6,9 @@ Trying out ORB-SLAM2 with a monocular camera for a differential-drive robot.
 
 ## Initial Point Cloud Tests
 ![Point Cloud Test GIF](img/point_cloud_test.gif?raw=true)
+
+## Teleoperating the Robot
+### Requirements
++ Ubuntu 18.04 (Bionic Beaver)
++ ROS Melodic Distro
++ Turtlebot3 Teleop Package: Run `sudo apt-get install ros-melodic-turtlebot3-teleop` to install the package.
